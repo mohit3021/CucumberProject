@@ -3,4 +3,6 @@ password: Collaboration!
 baseURL: https://stage-web.core.merrillcorp.com
 Api: /api/tokens/login
 
+Api2: /api/projects
+
        

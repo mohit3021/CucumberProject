@@ -7,7 +7,7 @@ import cucumber.api.junit.Cucumber;
 
 
 	@RunWith(Cucumber.class)
-	@CucumberOptions(features="Features", glue={"StepDef"}, format = {"pretty", "html:target/cucumber-html-report"})
+	@CucumberOptions(features="Features", tags = {"@project"}, glue={"StepDef"}, format = {"pretty", "html:target/cucumber-html-report"})
 	public class TestRunner {
 	}
 
