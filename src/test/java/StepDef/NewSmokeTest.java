@@ -47,6 +47,8 @@ public class NewSmokeTest {
 			
 			System.out.println(sc);
 			
+			System.out.println("mohit sharma");
+			
 			String gb=r.getBody().asString();
 			
 			System.out.println(gb);
